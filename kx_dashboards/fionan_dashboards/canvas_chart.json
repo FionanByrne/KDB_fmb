@@ -1,0 +1,456 @@
+{
+  "id": "1b79b96f-17c9-aeba-4648-6f5eec0acae0",
+  "name": "Canvas Chart",
+  "creationDate": "Sun, 30 Jun 2024 20:10:15 GMT",
+  "lastUpdateDate": "Sun, 30 Jun 2024 20:26:06 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "972b2843-1120-85eb-7722-f3cb73c0b6e7"
+    }
+  ],
+  "screens": [
+    {
+      "id": "972b2843-1120-85eb-7722-f3cb73c0b6e7",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "96209a9b-5bb4-4863-4a2a-7d897562cf20",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 9,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "910b6aa4-4508-7534-1c5c-61e527939856",
+            "key": "ChartJS",
+            "options": {
+              "Layers": [
+                {
+                  "_Hidden": {
+                    "_Type": "Line",
+                    "_Index": 0,
+                    "_LayerId": "layer_8977",
+                    "_PossibleColumns": [
+                      "Date",
+                      "Open",
+                      "High",
+                      "Low",
+                      "Close",
+                      "Volume",
+                      "AdjClose"
+                    ],
+                    "_PossibleColumnsWithItself": [
+                      "<this>",
+                      "Date",
+                      "Open",
+                      "High",
+                      "Low",
+                      "Close",
+                      "Volume",
+                      "AdjClose"
+                    ],
+                    "_PossibleColumnsWithXYKey": [
+                      "<thisX>",
+                      "<thisY>",
+                      "<thisName>",
+                      "Date",
+                      "Open",
+                      "High",
+                      "Low",
+                      "Close",
+                      "Volume",
+                      "AdjClose"
+                    ],
+                    "_PossibleRadius": [
+                      "Fixed Size",
+                      "Date",
+                      "Open",
+                      "High",
+                      "Low",
+                      "Close",
+                      "Volume",
+                      "AdjClose"
+                    ],
+                    "_PossibleXAxes": [
+                      "XAxis 1"
+                    ],
+                    "_PossibleYAxes": [
+                      "YAxis 1",
+                      "YAxis 2"
+                    ],
+                    "_PossibleLayers": [
+                      "nofill",
+                      "Layer 2",
+                      "origin",
+                      "+1",
+                      "+2"
+                    ]
+                  },
+                  "Basics": {
+                    "LegendLabelColor": "",
+                    "Name": "Close",
+                    "BorderWidth": 3,
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "Canvas"
+                    }
+                  },
+                  "Axes": {
+                    "XAxisData": "Date",
+                    "YAxisData": "Close",
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 1"
+                  },
+                  "Labels": {
+                    "Font": {
+                      "Bold": false,
+                      "Size": 12
+                    }
+                  },
+                  "Line": {
+                    "FadeToTransparent": true,
+                    "Fill": "origin"
+                  },
+                  "Points": {
+                    "PointBorderWidth": 0,
+                    "PointHoverBorderWidth": 0
+                  }
+                },
+                {
+                  "_Hidden": {
+                    "_Type": "Bar",
+                    "_Index": 1,
+                    "_LayerId": "layer_3282",
+                    "_PossibleColumns": [
+                      "Date",
+                      "Open",
+                      "High",
+                      "Low",
+                      "Close",
+                      "Volume",
+                      "AdjClose"
+                    ],
+                    "_PossibleColumnsWithItself": [
+                      "<this>",
+                      "Date",
+                      "Open",
+                      "High",
+                      "Low",
+                      "Close",
+                      "Volume",
+                      "AdjClose"
+                    ],
+                    "_PossibleColumnsWithXYKey": [
+                      "<thisX>",
+                      "<thisY>",
+                      "<thisName>",
+                      "Date",
+                      "Open",
+                      "High",
+                      "Low",
+                      "Close",
+                      "Volume",
+                      "AdjClose"
+                    ],
+                    "_PossibleRadius": [
+                      "Fixed Size",
+                      "Date",
+                      "Open",
+                      "High",
+                      "Low",
+                      "Close",
+                      "Volume",
+                      "AdjClose"
+                    ],
+                    "_PossibleXAxes": [
+                      "XAxis 1"
+                    ],
+                    "_PossibleYAxes": [
+                      "YAxis 1",
+                      "YAxis 2"
+                    ]
+                  },
+                  "Basics": {
+                    "LegendLabelColor": "",
+                    "Name": "Volume",
+                    "BackgroundColor": "#F23A66",
+                    "BackgroundOpacity": 20,
+                    "BorderColor": "#F23A66",
+                    "BorderOpacity": 20,
+                    "BorderWidth": 3,
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "Canvas"
+                    }
+                  },
+                  "Axes": {
+                    "XAxisData": "Date",
+                    "YAxisData": "Volume",
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 2"
+                  },
+                  "Labels": {
+                    "Font": {
+                      "Bold": false,
+                      "Size": 12
+                    }
+                  }
+                }
+              ],
+              "Legend": {
+                "LegendLayerThreshold": 5
+              },
+              "XAxes": [
+                {
+                  "_Hidden": {
+                    "_Type": "time",
+                    "_AxisId": "axis_898",
+                    "_Index": 0,
+                    "_Label": "XAxis 1"
+                  },
+                  "Title": {
+                    "Display": true,
+                    "FontFamily": "'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'",
+                    "FontSize": 12,
+                    "FontStyle": "normal",
+                    "LabelString": "Date",
+                    "FontColor": "#3dbf4f",
+                    "FontOpacity": 100
+                  },
+                  "Labels": {
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "Offset": false,
+                    "TimeFormats": {
+                      "Break": 86400000,
+                      "Day": "MMM D",
+                      "Distribution": "series",
+                      "Hour": "hA",
+                      "IsoWeekday": false,
+                      "ShowMajor": false,
+                      "Millisecond": "h:mm:ss.SSS a",
+                      "Minute": "h:mm a",
+                      "Month": "MMM YYYY",
+                      "Quarter": "[Q]Q - YYYY",
+                      "Round": false,
+                      "Second": "h:mm:ss a",
+                      "TooltipFormat": "",
+                      "TriggerBreak": 86400000,
+                      "Unit": "month",
+                      "Week": "ll",
+                      "Year": "YYYY"
+                    }
+                  },
+                  "Range": {
+                    "Max": 0,
+                    "Min": 0,
+                    "SoftRange": false,
+                    "SuggestedMax": 0,
+                    "SuggestedMin": 0,
+                    "UseDataRange": false
+                  }
+                }
+              ],
+              "YAxes": [
+                {
+                  "_Hidden": {
+                    "_Type": "linear",
+                    "_AxisId": "axis_902",
+                    "_Index": 0,
+                    "_Label": "YAxis 1"
+                  },
+                  "Labels": {
+                    "BeginAtZero": false,
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "DateFormat": "YYYY-MM-DD"
+                  }
+                },
+                {
+                  "_Hidden": {
+                    "_Type": "linear",
+                    "_AxisId": "axis_3381",
+                    "_Index": 1,
+                    "_Label": "YAxis 2"
+                  },
+                  "Title": {
+                    "Display": true,
+                    "FontFamily": "'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'",
+                    "FontSize": 12,
+                    "FontStyle": "normal",
+                    "LabelString": "Price",
+                    "FontColor": "#88adf7",
+                    "FontOpacity": 100
+                  },
+                  "Labels": {
+                    "FontColor": "#F8F8F8",
+                    "Format": "Smart Number",
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "Offset": false,
+                    "DateFormat": "YYYY-MM-DD"
+                  },
+                  "Range": {
+                    "Max": 0,
+                    "Min": 0,
+                    "SoftRange": false,
+                    "SuggestedMax": 0,
+                    "SuggestedMin": 0,
+                    "UseDataRange": false
+                  },
+                  "Position": "right"
+                }
+              ],
+              "version": "4.7.7"
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "1007",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {},
+    "_settings": {
+      "dashboardUser": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardTimezone": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardUrl": {
+        "_viewType": true,
+        "_type": "string",
+        "_default": ""
+      },
+      "dashboardTitle": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardStartTimestamp": {
+        "_viewType": true,
+        "_type": "timestamp",
+        "_default": "",
+        "_rolling": true
+      },
+      "dashboardAvailableMemoryThreshold": {
+        "_viewType": true,
+        "_type": "int",
+        "_default": 0
+      }
+    }
+  },
+  "data": {
+    "Canvas": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "Date",
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume",
+        "AdjClose"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "Date",
+        "mappings": {},
+        "value": "Open"
+      },
+      "_maxRows": "200",
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "SPX",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "hostnameAccess": "",
+  "hash": "1b79b96f-17c9-aeba-4648-6f5eec0acae0",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "version": "4.7.7",
+  "wasChanged": false
+}

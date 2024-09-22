@@ -1,0 +1,6 @@
+#URL
+
+#API Key
+
+session = kdbai.Session(endpoint='https://cloud.kdb.ai/instance/xzzma9a0ve', api_key='a4a85f7de6-8lnJDq10kCEm95zcevGfBXd8gD8tOUzOlfeM1u8MSS7KiOn9vsfCEKwMWusdkGeasA95Xg4iTE4akz9H')
+

@@ -1,0 +1,872 @@
+{
+  "id": "90d6b560-2ca4-62f9-9598-d1c45c0037cf",
+  "name": "Pivot Grid",
+  "creationDate": "Sun, 30 Jun 2024 19:37:51 GMT",
+  "lastUpdateDate": "Sun, 30 Jun 2024 20:10:25 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "8bf0831e-f219-dd10-6b5e-017faed446db"
+    }
+  ],
+  "screens": [
+    {
+      "id": "8bf0831e-f219-dd10-6b5e-017faed446db",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "42610a8b-9868-20d8-02ca-f322dca48d1c",
+          "layout": {
+            "row": 1,
+            "column": 0,
+            "rowSpan": 10,
+            "colSpan": 35
+          },
+          "component": {
+            "id": "74e09434-36c7-4da0-cebb-edf288e98edb",
+            "key": "Datatable",
+            "options": {
+              "version": "4.7.7",
+              "Basics": {
+                "Name": "",
+                "Focus": {
+                  "_dashboardsType": "viewstate",
+                  "value": "link"
+                },
+                "Drilldown": false,
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Pivot"
+                },
+                "ShowTools": true,
+                "Animate": true,
+                "MultipleDrilldown": false,
+                "ExpandAll": false,
+                "ShowExpandedSummary": false,
+                "SortColumn": "",
+                "SortOrder": "",
+                "ScrollValue": "",
+                "ShowCache": false,
+                "UseCache": true
+              },
+              "Selection": {
+                "RowSelectionMode": "none",
+                "RowSelectionColumn": "",
+                "SelectedValue": ""
+              },
+              "Actions": [],
+              "HighlightRules": [],
+              "FileExport": {
+                "ShowExportCsvButton": true,
+                "ShowExportExcelButton": true,
+                "ShowFullExportButton": false,
+                "FullExportOverride": "",
+                "RawFormat": false,
+                "FileName": [],
+                "Actions": []
+              },
+              "BreakdownColumnsConfiguration": [
+                {
+                  "Field": "Type",
+                  "DisplayName": "Type",
+                  "Tooltip": "",
+                  "TextAlign": "left",
+                  "Sortable": true,
+                  "Format": "General",
+                  "Precision": 2,
+                  "HideTrailingZeroes": false,
+                  "Currency": "none",
+                  "DateFormat": "YYYY-MM-DD",
+                  "TimeFormat": "HH:mm:ss",
+                  "WidthWeight": 1,
+                  "MinWidth": 1,
+                  "PercentageColorOverride": "",
+                  "isBreakdown": true,
+                  "NoDisplay": false,
+                  "Template": ""
+                },
+                {
+                  "Field": "Month",
+                  "DisplayName": "Month",
+                  "Tooltip": "",
+                  "TextAlign": "center",
+                  "Sortable": true,
+                  "Format": "General",
+                  "Precision": 2,
+                  "HideTrailingZeroes": false,
+                  "Currency": "none",
+                  "DateFormat": "YYYY-MM-DD",
+                  "TimeFormat": "HH:mm:ss",
+                  "WidthWeight": 1,
+                  "MinWidth": 1,
+                  "PercentageColorOverride": "",
+                  "isBreakdown": true,
+                  "NoDisplay": false,
+                  "Template": ""
+                },
+                {
+                  "Field": "Asset",
+                  "DisplayName": "Asset",
+                  "Tooltip": "",
+                  "TextAlign": "center",
+                  "Sortable": true,
+                  "Format": "General",
+                  "Precision": 2,
+                  "HideTrailingZeroes": false,
+                  "Currency": "none",
+                  "DateFormat": "YYYY-MM-DD",
+                  "TimeFormat": "HH:mm:ss",
+                  "WidthWeight": 1,
+                  "MinWidth": 1,
+                  "PercentageColorOverride": "",
+                  "isBreakdown": true,
+                  "NoDisplay": false,
+                  "Template": ""
+                },
+                {
+                  "Field": "Trader",
+                  "DisplayName": "Trader",
+                  "Tooltip": "",
+                  "TextAlign": "center",
+                  "Sortable": true,
+                  "Format": "General",
+                  "Precision": 2,
+                  "HideTrailingZeroes": false,
+                  "Currency": "none",
+                  "DateFormat": "YYYY-MM-DD",
+                  "TimeFormat": "HH:mm:ss",
+                  "WidthWeight": 1,
+                  "MinWidth": 1,
+                  "PercentageColorOverride": "",
+                  "isBreakdown": true,
+                  "NoDisplay": false,
+                  "Template": ""
+                }
+              ],
+              "_BreakdownColumnsConfiguration": [
+                {
+                  "Field": "Type",
+                  "DisplayName": "Type",
+                  "Tooltip": "",
+                  "TextAlign": "left",
+                  "Sortable": true,
+                  "Format": "General",
+                  "Precision": 2,
+                  "HideTrailingZeroes": false,
+                  "Currency": "none",
+                  "DateFormat": "YYYY-MM-DD",
+                  "TimeFormat": "HH:mm:ss",
+                  "WidthWeight": 1,
+                  "MinWidth": 1,
+                  "PercentageColorOverride": "",
+                  "isBreakdown": true,
+                  "NoDisplay": false,
+                  "Template": ""
+                },
+                {
+                  "Field": "Month",
+                  "DisplayName": "Month",
+                  "Tooltip": "",
+                  "TextAlign": "center",
+                  "Sortable": true,
+                  "Format": "General",
+                  "Precision": 2,
+                  "HideTrailingZeroes": false,
+                  "Currency": "none",
+                  "DateFormat": "YYYY-MM-DD",
+                  "TimeFormat": "HH:mm:ss",
+                  "WidthWeight": 1,
+                  "MinWidth": 1,
+                  "PercentageColorOverride": "",
+                  "isBreakdown": true,
+                  "NoDisplay": false,
+                  "Template": ""
+                },
+                {
+                  "Field": "Asset",
+                  "DisplayName": "Asset",
+                  "Tooltip": "",
+                  "TextAlign": "center",
+                  "Sortable": true,
+                  "Format": "General",
+                  "Precision": 2,
+                  "HideTrailingZeroes": false,
+                  "Currency": "none",
+                  "DateFormat": "YYYY-MM-DD",
+                  "TimeFormat": "HH:mm:ss",
+                  "WidthWeight": 1,
+                  "MinWidth": 1,
+                  "PercentageColorOverride": "",
+                  "isBreakdown": true,
+                  "NoDisplay": false,
+                  "Template": ""
+                },
+                {
+                  "Field": "Trader",
+                  "DisplayName": "Trader",
+                  "Tooltip": "",
+                  "TextAlign": "center",
+                  "Sortable": true,
+                  "Format": "General",
+                  "Precision": 2,
+                  "HideTrailingZeroes": false,
+                  "Currency": "none",
+                  "DateFormat": "YYYY-MM-DD",
+                  "TimeFormat": "HH:mm:ss",
+                  "WidthWeight": 1,
+                  "MinWidth": 1,
+                  "PercentageColorOverride": "",
+                  "isBreakdown": true,
+                  "NoDisplay": false,
+                  "Template": ""
+                }
+              ],
+              "datatablePossibleBreakdownColumns": [
+                "Type",
+                "Month",
+                "Asset",
+                "Trader"
+              ],
+              "ColumnsConfiguration": [],
+              "_ColumnsConfiguration": [],
+              "datatablePossibleColumns": [
+                "Return"
+              ],
+              "Style": {
+                "advanced": "",
+                "cssClasses": "",
+                "Theme": "Dark",
+                "EvenRowBackgroundColorOverride": "#282828",
+                "OddRowBackgroundColorOverride": "#303030",
+                "SelectedRowBackgroundColor": "#505050",
+                "ExpandedSummaryStyle": false,
+                "RowHeight": 30,
+                "HeaderRowHeight": 30,
+                "HeaderTextTransformation": "none",
+                "HeaderFontWeight": "",
+                "FontFamily": "",
+                "FontSize": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "selectedColumnPossibleValues": [
+                "Type",
+                "Month",
+                "Asset",
+                "Trader",
+                "Return"
+              ],
+              "highlightTargetPossibleValues": [
+                "Type",
+                "Month",
+                "Asset",
+                "Trader",
+                "Return",
+                "*"
+              ],
+              "highlightColumnsPossibleValues": [
+                "{breakdownId}",
+                "Type",
+                "Month",
+                "Asset",
+                "Trader",
+                "Return"
+              ]
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "3",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "1ee1aa23-e1f6-a537-7ff0-c837066326f9",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 1,
+            "colSpan": 18
+          },
+          "component": {
+            "id": "2c6810be-9de5-2298-a2b4-edc541dc987f",
+            "key": "Breadcrumbs",
+            "options": {
+              "version": "4.7.7",
+              "Basic": {
+                "Name": "",
+                "Path": {
+                  "_dashboardsType": "viewstate",
+                  "value": "link"
+                },
+                "Breakdown": {
+                  "_dashboardsType": "viewstate",
+                  "value": "breakdown"
+                },
+                "UsePathForAlternativeText": true,
+                "AllowReordering": true,
+                "ShowEditButton": false,
+                "Data": "",
+                "DataSourceMapping": {
+                  "Value": "",
+                  "Text": ""
+                },
+                "BreadcrumbList": [],
+                "Theme": "Dark"
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "19",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "5bc473e8-c28e-c345-bd17-eaba6d57193d",
+          "layout": {
+            "row": 12,
+            "column": 1,
+            "rowSpan": 9,
+            "colSpan": 18
+          },
+          "component": {
+            "id": "35ddb76f-6d32-8c41-4d11-cc45f07f574e",
+            "key": "PieJS",
+            "options": {
+              "version": "4.7.7",
+              "Basics": {
+                "Name": "",
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Pivot"
+                },
+                "Theme": "Dark",
+                "Focus": {
+                  "_dashboardsType": "viewstate",
+                  "value": "link"
+                },
+                "Selected": "",
+                "SelectedAttr": "",
+                "PopoutSelected": false,
+                "PopoutSelectedSize": 10,
+                "Actions": []
+              },
+              "DataSet": {
+                "Label": "{breakdownId}",
+                "DonutRatio": 50,
+                "Rotation": 50,
+                "Circumference": 100,
+                "BorderWidth": 1,
+                "Layers": [
+                  {
+                    "Segment": "Return",
+                    "Display": "",
+                    "UseColor": true,
+                    "Color": "#0061FF",
+                    "BorderColor": "#ffffff",
+                    "ColorOpacity": 85,
+                    "HighlightRules": []
+                  }
+                ]
+              },
+              "Legend": {
+                "Display": true,
+                "FullWidth": true,
+                "Reverse": false,
+                "Position": "top",
+                "LabelColor": "#ffffff",
+                "LabelFontFamily": "Helvetica",
+                "LabelFontSize": 12,
+                "BoxWidth": 40,
+                "Padding": 10,
+                "UsePointStyle": true,
+                "Mode": "Toggle Hidden",
+                "LegendScroll": false
+              },
+              "InnerLabel": {
+                "Innertitle": "",
+                "InnertitleColor": "#ffffff",
+                "InnertitleFont": "Verdana",
+                "InnertitleSize": 12,
+                "ShowPieceLabel": false,
+                "ShowZero": false,
+                "PieceLabelArc": false,
+                "PieceLabelColor": "#ffffff",
+                "PieceLabelOverlap": false,
+                "PieceLabelRender": "percentage",
+                "PieceLabelPosition": "default",
+                "PieceLabelTemplate": "",
+                "FontSize": 10,
+                "Format": "General",
+                "Precision": 2,
+                "HideTrailingZeroes": false,
+                "Prefix": "",
+                "Suffix": "",
+                "DateFormat": "YYYY-MM-DD"
+              },
+              "Padding": {
+                "Top": 2,
+                "Bottom": 2,
+                "Left": 2,
+                "Right": 2
+              },
+              "Animations": {
+                "Enabled": false
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": "",
+                "palettes": [],
+                "chartBarColors": [
+                  {
+                    "type": "#0061FF"
+                  },
+                  {
+                    "type": "#F23A66"
+                  },
+                  {
+                    "type": "#009BAB"
+                  },
+                  {
+                    "type": "#7647CC"
+                  },
+                  {
+                    "type": "#FFC300"
+                  },
+                  {
+                    "type": "#9FA3A6"
+                  },
+                  {
+                    "type": "#003A99"
+                  },
+                  {
+                    "type": "#A90B31"
+                  },
+                  {
+                    "type": "#005D67"
+                  },
+                  {
+                    "type": "#452481"
+                  }
+                ],
+                "advancedTooltip": "<div> <table>{{#each dataSet}} <tbody> {{#eq @index 0}} <tr> <td colspan=\"2\">{{label}}</td> </tr> {{/eq}} <tr><td>{{xaxis}}</td> <td><svg style=\"width:20px;height:20px\"> <circle fill=\"{{color}}\" stroke-width=\"2\" stroke=\"white\" r=\"8\" cy=\"10\" cx=\"10\"> </circle> </svg></td> <td>{{layerName}} :</td> <td>{{toFixed value 2}} ({{toFixed percent 2}}%)</td> </tr> {{/each}} </tbody> </table> </div>"
+              },
+              "FileExport": {
+                "ShowScreenshot": false,
+                "ShowExportCsvButton": false,
+                "ShowExportExcelButton": false,
+                "FileName": []
+              },
+              "possibleColumns": [
+                "{breakdownId}",
+                "Type",
+                "Return"
+              ],
+              "possibleLabels": [
+                "{breakdownId}",
+                "Type",
+                "Return"
+              ],
+              "possiblePalettes": [
+                " ",
+                ".palette_default",
+                ".palette_gradient",
+                ".palette_pastel",
+                ".palette_colorblind"
+              ],
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "possibleRules": [
+                "{breakdownId}",
+                "Type",
+                "Return"
+              ]
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "1009",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "7f2829a5-a140-3339-c74e-e6c03746e6b8",
+          "layout": {
+            "row": 12,
+            "column": 19,
+            "rowSpan": 9,
+            "colSpan": 17
+          },
+          "component": {
+            "id": "11b7ffed-4720-08ae-99be-99e65afffc16",
+            "key": "ChartJS",
+            "options": {
+              "Basics": {
+                "Focus": {
+                  "_dashboardsType": "viewstate",
+                  "value": "link"
+                }
+              },
+              "Layers": [
+                {
+                  "_Hidden": {
+                    "_Index": 0,
+                    "_LayerId": "layer_8977",
+                    "_PossibleColumns": [
+                      "{breakdownId}",
+                      "Type",
+                      "Return"
+                    ],
+                    "_PossibleColumnsWithItself": [
+                      "<this>",
+                      "{breakdownId}",
+                      "Type",
+                      "Return"
+                    ],
+                    "_PossibleColumnsWithXYKey": [
+                      "<thisX>",
+                      "<thisY>",
+                      "<thisName>",
+                      "{breakdownId}",
+                      "Type",
+                      "Return"
+                    ],
+                    "_PossibleRadius": [
+                      "Fixed Size",
+                      "{breakdownId}",
+                      "Type",
+                      "Return"
+                    ],
+                    "_PossibleXAxes": [
+                      "XAxis 1"
+                    ],
+                    "_PossibleYAxes": [
+                      "YAxis 1"
+                    ],
+                    "_Type": "Bar"
+                  },
+                  "Basics": {
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "Pivot"
+                    },
+                    "LegendLabelColor": "",
+                    "Name": "Layer 1",
+                    "BorderWidth": 0
+                  },
+                  "Axes": {
+                    "XAxisData": "{breakdownId}",
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 1",
+                    "YAxisData": "Return"
+                  },
+                  "HighlightRules": {
+                    "0": {
+                      "RuleName": "Negative Value",
+                      "RuleSource": "Return",
+                      "RuleTarget": "*",
+                      "RuleType": "",
+                      "Show": false,
+                      "RuleBorderColor": "#6e1414",
+                      "RuleColor": "#a62b58",
+                      "RuleOperation": "<",
+                      "RuleValue": "0"
+                    }
+                  },
+                  "Labels": {
+                    "Font": {
+                      "Bold": false,
+                      "Size": 12
+                    }
+                  }
+                }
+              ],
+              "Legend": {
+                "LegendLayerThreshold": 5
+              },
+              "XAxes": [
+                {
+                  "_Hidden": {
+                    "_AxisId": "axis_4250",
+                    "_Index": 0,
+                    "_Label": "XAxis 1",
+                    "_Type": "category"
+                  },
+                  "Labels": {
+                    "MaxWidth": 0,
+                    "DateFormat": "YYYY-MM-DD"
+                  }
+                }
+              ],
+              "YAxes": [
+                {
+                  "_Hidden": {
+                    "_AxisId": "axis_4254",
+                    "_Index": 0,
+                    "_Label": "YAxis 1",
+                    "_Type": "linear"
+                  },
+                  "GridLines": {
+                    "OffsetGridLines": false
+                  },
+                  "Labels": {
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "DateFormat": "YYYY-MM-DD"
+                  }
+                }
+              ],
+              "version": "4.7.7"
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "1007",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {},
+    "_settings": {
+      "dashboardUser": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardTimezone": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardUrl": {
+        "_viewType": true,
+        "_type": "string",
+        "_default": ""
+      },
+      "dashboardTitle": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardStartTimestamp": {
+        "_viewType": true,
+        "_type": "timestamp",
+        "_default": "",
+        "_rolling": true
+      },
+      "dashboardAvailableMemoryThreshold": {
+        "_viewType": true,
+        "_type": "int",
+        "_default": 0
+      }
+    },
+    "link": {
+      "_viewType": true,
+      "_default": "",
+      "_type": "symbol"
+    },
+    "breakdown": {
+      "_viewType": true,
+      "_type": "list",
+      "_default": [
+        "Type",
+        "Month",
+        "Asset",
+        "Trader"
+      ],
+      "_listtype": "symbol"
+    }
+  },
+  "data": {
+    "Pivot": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "Type",
+        "Return"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_queryString": "select Type, Month, Asset, Trader, Return from TradeData",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_aggregateCols": [
+        "Return"
+      ],
+      "_aggregateFns": [
+        "avg"
+      ],
+      "_aggregateLabels": [
+        ""
+      ],
+      "_breakdownCols": {
+        "_dashboardsType": "viewstate",
+        "value": "breakdown"
+      },
+      "_columnLabel": "",
+      "_pivotSource": "query",
+      "_pivotType": "server",
+      "_table": "",
+      "_aggFn": "avg",
+      "_topX": "",
+      "_ordering": "",
+      "_from": "",
+      "_to": ""
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "hostnameAccess": "",
+  "hash": "90d6b560-2ca4-62f9-9598-d1c45c0037cf",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "version": "4.7.7",
+  "wasChanged": true
+}

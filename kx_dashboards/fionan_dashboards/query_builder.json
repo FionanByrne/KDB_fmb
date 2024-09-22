@@ -1,0 +1,1843 @@
+{
+  "id": "9937521f-4ef7-21c5-39f1-18fa0f679fed",
+  "name": "Query Builder",
+  "creationDate": "Sun, 30 Jun 2024 17:22:22 GMT",
+  "lastUpdateDate": "Sun, 30 Jun 2024 18:04:01 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "310dfc9c-14a0-7231-577b-21e01a11b9ab"
+    },
+    {
+      "label": "Screen 2",
+      "value": "3a59117d-3aa0-fec9-0538-9bc41bf7ff38"
+    }
+  ],
+  "screens": [
+    {
+      "id": "310dfc9c-14a0-7231-577b-21e01a11b9ab",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "52cb75f0-798f-728c-1c60-2314b4c81e89",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 12,
+            "colSpan": 35
+          },
+          "component": {
+            "id": "75a3b2a4-f9fd-45f0-39c5-5c472c884f36",
+            "key": "Datagrid",
+            "options": {
+              "version": "4.7.8",
+              "datagridPossibleColumns": [
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees"
+              ],
+              "datagridPossibleHeaderColumns": [
+                "none"
+              ],
+              "datagridPossibleColumnsWithItself": [
+                "<this>",
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees"
+              ],
+              "selectedColumnPossibleValues": [
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees"
+              ],
+              "highlightTargetPossibleValues": [
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees",
+                "*"
+              ],
+              "sortingPossibleValues": [
+                "",
+                "sym",
+                "Description",
+                "LastTime",
+                "Last",
+                "Change",
+                "ChangePerc",
+                "DayLow",
+                "DayHigh",
+                "Name",
+                "DividendYield_TTM",
+                "Profile",
+                "MarketCap",
+                "EnterpriseValue",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PEG_Ratio",
+                "PriceSales_TTM",
+                "PriceBook_MRQ",
+                "Revenue_TTM",
+                "RevenuePerShare_TTM",
+                "GrossProfit_TTM",
+                "EBITDA_TTM",
+                "NetIncome_TTM",
+                "DilutedEPS_TTM",
+                "QuarterlyEarningsGrowth_YOY",
+                "TotalCash",
+                "TotalCashPerShare_MRQ",
+                "TotalDebt_MRQ",
+                "TotalDebtEquity_MRQ",
+                "CurrentRatio_MRQ",
+                "BookValuePerShare_MRQ",
+                "OperatingCashFlow_TTM",
+                "LeveredCashFlow_TTM",
+                "PriceTarget_1Yr",
+                "NoOfAnalysts_currQ",
+                "AvgEstimateEPS_currQ",
+                "LowEstimateEPS_currQ",
+                "HighEstimateEPS_currQ",
+                "YearAgoEPS_currQ",
+                "UpEPSRev_last30days",
+                "LowerEPSRev_last30days",
+                "AnalystConsensus",
+                "AnalystScore_1_sBUY_to_5_sSELL",
+                "CEO",
+                "Sector",
+                "Industry",
+                "Employees"
+              ],
+              "footerPossibleValues": [
+                "None",
+                "Average",
+                "Count",
+                "Sum",
+                "WeightedAverage"
+              ],
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Starter"
+                }
+              },
+              "ColumnsConfiguration": [
+                {
+                  "Field": "sym",
+                  "DisplayName": "sym",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "Description",
+                  "DisplayName": "Description",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "LastTime",
+                  "DisplayName": "LastTime",
+                  "Format": "DateTime",
+                  "TimeFormat": "HH:mm:ss.SSSSSSSSS",
+                  "WidthWeight": 200,
+                  "MinWidthAbsolute": 200,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "Last",
+                  "DisplayName": "Last",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "Change",
+                  "DisplayName": "Change",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "ChangePerc",
+                  "DisplayName": "ChangePerc",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "DayLow",
+                  "DisplayName": "DayLow",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "DayHigh",
+                  "DisplayName": "DayHigh",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "Name",
+                  "DisplayName": "Name",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "DividendYield_TTM",
+                  "DisplayName": "DividendYield_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "Profile",
+                  "DisplayName": "Profile",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "MarketCap",
+                  "DisplayName": "MarketCap",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "EnterpriseValue",
+                  "DisplayName": "EnterpriseValue",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "PE_Ratio_TTM",
+                  "DisplayName": "PE_Ratio_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "ForwardPE",
+                  "DisplayName": "ForwardPE",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "PEG_Ratio",
+                  "DisplayName": "PEG_Ratio",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "PriceSales_TTM",
+                  "DisplayName": "PriceSales_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "PriceBook_MRQ",
+                  "DisplayName": "PriceBook_MRQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "Revenue_TTM",
+                  "DisplayName": "Revenue_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "RevenuePerShare_TTM",
+                  "DisplayName": "RevenuePerShare_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "GrossProfit_TTM",
+                  "DisplayName": "GrossProfit_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "EBITDA_TTM",
+                  "DisplayName": "EBITDA_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "NetIncome_TTM",
+                  "DisplayName": "NetIncome_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "DilutedEPS_TTM",
+                  "DisplayName": "DilutedEPS_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "QuarterlyEarningsGrowth_YOY",
+                  "DisplayName": "QuarterlyEarningsGrowth_YOY",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "TotalCash",
+                  "DisplayName": "TotalCash",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "TotalCashPerShare_MRQ",
+                  "DisplayName": "TotalCashPerShare_MRQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "TotalDebt_MRQ",
+                  "DisplayName": "TotalDebt_MRQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "TotalDebtEquity_MRQ",
+                  "DisplayName": "TotalDebtEquity_MRQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "CurrentRatio_MRQ",
+                  "DisplayName": "CurrentRatio_MRQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "BookValuePerShare_MRQ",
+                  "DisplayName": "BookValuePerShare_MRQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "OperatingCashFlow_TTM",
+                  "DisplayName": "OperatingCashFlow_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "LeveredCashFlow_TTM",
+                  "DisplayName": "LeveredCashFlow_TTM",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "PriceTarget_1Yr",
+                  "DisplayName": "PriceTarget_1Yr",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "NoOfAnalysts_currQ",
+                  "DisplayName": "NoOfAnalysts_currQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "AvgEstimateEPS_currQ",
+                  "DisplayName": "AvgEstimateEPS_currQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "LowEstimateEPS_currQ",
+                  "DisplayName": "LowEstimateEPS_currQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "HighEstimateEPS_currQ",
+                  "DisplayName": "HighEstimateEPS_currQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "YearAgoEPS_currQ",
+                  "DisplayName": "YearAgoEPS_currQ",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "UpEPSRev_last30days",
+                  "DisplayName": "UpEPSRev_last30days",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "LowerEPSRev_last30days",
+                  "DisplayName": "LowerEPSRev_last30days",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "AnalystConsensus",
+                  "DisplayName": "AnalystConsensus",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "AnalystScore_1_sBUY_to_5_sSELL",
+                  "DisplayName": "AnalystScore_1_sBUY_to_5_sSELL",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "CEO",
+                  "DisplayName": "CEO",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "Sector",
+                  "DisplayName": "Sector",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "Industry",
+                  "DisplayName": "Industry",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "Employees",
+                  "DisplayName": "Employees",
+                  "Format": "Number",
+                  "Precision": 0,
+                  "WidthWeight": 85,
+                  "MinWidthAbsolute": 85,
+                  "TextAlign": "right"
+                }
+              ],
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0
+              },
+              "format": {
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "21",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "3ab0d066-b1a6-7980-72e4-b0d5e1acb6ae",
+          "layout": {
+            "row": 14,
+            "column": 1,
+            "rowSpan": 10,
+            "colSpan": 33
+          },
+          "component": {
+            "id": "ea640420-3c8b-8763-7449-f565ad465a18",
+            "key": "Datagrid",
+            "options": {
+              "version": "4.7.8",
+              "datagridPossibleColumns": [
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize"
+              ],
+              "datagridPossibleHeaderColumns": [
+                "none"
+              ],
+              "datagridPossibleColumnsWithItself": [
+                "<this>",
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize"
+              ],
+              "selectedColumnPossibleValues": [
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize"
+              ],
+              "highlightTargetPossibleValues": [
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize",
+                "*"
+              ],
+              "sortingPossibleValues": [
+                "",
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize"
+              ],
+              "footerPossibleValues": [
+                "None",
+                "Average",
+                "Count",
+                "Sum",
+                "WeightedAverage"
+              ],
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Quote"
+                }
+              },
+              "ColumnsConfiguration": [
+                {
+                  "Field": "time",
+                  "DisplayName": "time",
+                  "Format": "DateTime",
+                  "TimeFormat": "HH:mm:ss.SSSSSSSSS",
+                  "WidthWeight": 200,
+                  "MinWidthAbsolute": 200,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "sym",
+                  "DisplayName": "sym",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "src",
+                  "DisplayName": "src",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "bidSize",
+                  "DisplayName": "bidSize",
+                  "Format": "Formatted Number",
+                  "Precision": 0,
+                  "WidthWeight": 165,
+                  "MinWidthAbsolute": 165,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "bid",
+                  "DisplayName": "bid",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "ask",
+                  "DisplayName": "ask",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "askSize",
+                  "DisplayName": "askSize",
+                  "Format": "Formatted Number",
+                  "Precision": 0,
+                  "WidthWeight": 165,
+                  "MinWidthAbsolute": 165,
+                  "TextAlign": "right"
+                }
+              ],
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0
+              },
+              "format": {
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "21",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "6df53e41-e4b0-b0d4-3201-224b46b327f2",
+          "layout": {
+            "row": 13,
+            "column": 1,
+            "rowSpan": 1,
+            "colSpan": 13
+          },
+          "component": {
+            "id": "324539f5-7e1f-4d79-10e1-92b00ed22069",
+            "key": "BasicComponents",
+            "options": {
+              "version": "4.7.7.2",
+              "dropdownPossibleValues": [
+                "src"
+              ],
+              "Basics": {
+                "Name": "",
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "distinct src"
+                },
+                "SelectedValue": {
+                  "_dashboardsType": "viewstate",
+                  "value": "srcSelect"
+                },
+                "ComponentName": "Dropdown",
+                "DataSourceMapping": {
+                  "Value": "src",
+                  "Text": "src"
+                },
+                "GroupMapping": {
+                  "Group": false,
+                  "GroupBy": ""
+                },
+                "Items": [],
+                "Width": 100,
+                "Theme": "Dark",
+                "Label": "select:",
+                "LabelWidth": 75,
+                "MultiSelect": false,
+                "ShowSearch": false,
+                "AdvancedSearch": false,
+                "AcceptEmptyValues": false,
+                "ForceSelectedValue": false,
+                "FieldSummaryThreshold": 5,
+                "TooltipSummaryThreshold": 10,
+                "SelectAllValue": "",
+                "horizontal": "Left",
+                "vertical": "Middle",
+                "tooltip": "",
+                "SortListBySelected": false,
+                "Custom": {
+                  "Icon": "",
+                  "IconColor": ""
+                }
+              },
+              "Actions": [],
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "dropdownPossibleValuesWithEmpty": [
+                "",
+                "src"
+              ]
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "16",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    },
+    {
+      "id": "3a59117d-3aa0-fec9-0538-9bc41bf7ff38",
+      "name": "Screen 2",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "11dc902f-1a2a-33d2-5956-b0aa90086c19",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 9,
+            "colSpan": 34
+          },
+          "component": {
+            "id": "ec4e0cdd-306b-89dd-2d5b-4a5a2efdee22",
+            "key": "ChartJS",
+            "options": {
+              "Layers": [
+                {
+                  "_Hidden": {
+                    "_Index": 0,
+                    "_LayerId": "layer_8977",
+                    "_PossibleColumns": [
+                      "Area",
+                      "Group",
+                      "Price",
+                      "Rooms",
+                      "Address",
+                      "Provence",
+                      "Rent",
+                      "PercentageChange"
+                    ],
+                    "_PossibleColumnsWithItself": [
+                      "<this>",
+                      "Area",
+                      "Group",
+                      "Price",
+                      "Rooms",
+                      "Address",
+                      "Provence",
+                      "Rent",
+                      "PercentageChange"
+                    ],
+                    "_PossibleColumnsWithXYKey": [
+                      "<thisX>",
+                      "<thisY>",
+                      "<thisName>",
+                      "Area",
+                      "Group",
+                      "Price",
+                      "Rooms",
+                      "Address",
+                      "Provence",
+                      "Rent",
+                      "PercentageChange"
+                    ],
+                    "_PossibleRadius": [
+                      "Fixed Size",
+                      "Area",
+                      "Group",
+                      "Price",
+                      "Rooms",
+                      "Address",
+                      "Provence",
+                      "Rent",
+                      "PercentageChange"
+                    ],
+                    "_PossibleXAxes": [
+                      "XAxis 1"
+                    ],
+                    "_PossibleYAxes": [
+                      "YAxis 1"
+                    ],
+                    "_Type": "Bar"
+                  },
+                  "Basics": {
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "Property"
+                    },
+                    "LegendLabelColor": "",
+                    "Name": "Rent"
+                  },
+                  "Axes": {
+                    "XAxisData": "Area",
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 1",
+                    "YAxisData": "Rent"
+                  },
+                  "Labels": {
+                    "Font": {
+                      "Bold": false,
+                      "Size": 12
+                    }
+                  }
+                },
+                {
+                  "_Hidden": {
+                    "_Index": 1,
+                    "_LayerId": "layer_20273",
+                    "_PossibleColumns": [
+                      "Area",
+                      "Group",
+                      "Price",
+                      "Rooms",
+                      "Address",
+                      "Provence",
+                      "Rent",
+                      "PercentageChange"
+                    ],
+                    "_PossibleColumnsWithItself": [
+                      "<this>",
+                      "Area",
+                      "Group",
+                      "Price",
+                      "Rooms",
+                      "Address",
+                      "Provence",
+                      "Rent",
+                      "PercentageChange"
+                    ],
+                    "_PossibleColumnsWithXYKey": [
+                      "<thisX>",
+                      "<thisY>",
+                      "<thisName>",
+                      "Area",
+                      "Group",
+                      "Price",
+                      "Rooms",
+                      "Address",
+                      "Provence",
+                      "Rent",
+                      "PercentageChange"
+                    ],
+                    "_PossibleRadius": [
+                      "Fixed Size",
+                      "Area",
+                      "Group",
+                      "Price",
+                      "Rooms",
+                      "Address",
+                      "Provence",
+                      "Rent",
+                      "PercentageChange"
+                    ],
+                    "_PossibleXAxes": [
+                      "XAxis 1"
+                    ],
+                    "_PossibleYAxes": [
+                      "YAxis 1",
+                      "YAxis 2"
+                    ],
+                    "_Type": "Bar",
+                    "_PossibleLayers": []
+                  },
+                  "Basics": {
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "Property"
+                    },
+                    "LegendLabelColor": "",
+                    "Name": "Property Price",
+                    "BackgroundColor": "#F23A66",
+                    "BorderColor": "#F23A66"
+                  },
+                  "Axes": {
+                    "XAxisData": "Area",
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 2",
+                    "YAxisData": "Price"
+                  },
+                  "Labels": {
+                    "Font": {
+                      "Bold": false,
+                      "Size": 12
+                    }
+                  },
+                  "Bars": {
+                    "HoverBackgroundColor": "#F23A66",
+                    "HoverBorderColor": "#F23A66",
+                    "MaxBarThickness": 10,
+                    "HoverBackgroundOpacity": 80,
+                    "HoverBorderOpacity": 80,
+                    "HoverBorderWidth": 2.01
+                  }
+                }
+              ],
+              "Legend": {
+                "LegendLayerThreshold": 5
+              },
+              "XAxes": [
+                {
+                  "_Hidden": {
+                    "_Type": "category",
+                    "_AxisId": "axis_15431",
+                    "_Index": 0,
+                    "_Label": "XAxis 1"
+                  },
+                  "Labels": {
+                    "DateFormat": "YYYY-MM-DD",
+                    "MaxWidth": 0
+                  }
+                }
+              ],
+              "YAxes": [
+                {
+                  "_Hidden": {
+                    "_AxisId": "axis_15435",
+                    "_Index": 0,
+                    "_Label": "YAxis 1",
+                    "_Type": "linear"
+                  },
+                  "Labels": {
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "DateFormat": "YYYY-MM-DD"
+                  }
+                },
+                {
+                  "_Hidden": {
+                    "_AxisId": "axis_20280",
+                    "_Index": 1,
+                    "_Label": "YAxis 2",
+                    "_Type": "linear"
+                  },
+                  "Position": "right",
+                  "Labels": {
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "FontColor": "#F8F8F8",
+                    "Offset": false,
+                    "DateFormat": "YYYY-MM-DD"
+                  },
+                  "Range": {
+                    "Max": 0,
+                    "Min": 0,
+                    "SoftRange": false,
+                    "SuggestedMax": 0,
+                    "SuggestedMin": 0,
+                    "UseDataRange": false
+                  }
+                }
+              ],
+              "Zoom": {
+                "Max": "Dublin 9",
+                "Min": "Dublin 7"
+              },
+              "version": "4.7.7"
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "1007",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "fe2dc29b-0919-0214-10c7-f2282387159a",
+          "layout": {
+            "row": 10,
+            "column": 0,
+            "rowSpan": 10,
+            "colSpan": 35
+          },
+          "component": {
+            "id": "43b03706-7893-33d3-4693-abba10811538",
+            "key": "Datagrid",
+            "options": {
+              "version": "4.7.8",
+              "datagridPossibleColumns": [
+                "Area",
+                "Group",
+                "Price",
+                "Rooms",
+                "Address",
+                "Monthly_repayment"
+              ],
+              "datagridPossibleHeaderColumns": [
+                "none"
+              ],
+              "datagridPossibleColumnsWithItself": [
+                "<this>",
+                "Area",
+                "Group",
+                "Price",
+                "Rooms",
+                "Address",
+                "Monthly_repayment"
+              ],
+              "selectedColumnPossibleValues": [
+                "Area",
+                "Group",
+                "Price",
+                "Rooms",
+                "Address",
+                "Monthly_repayment"
+              ],
+              "highlightTargetPossibleValues": [
+                "Area",
+                "Group",
+                "Price",
+                "Rooms",
+                "Address",
+                "Monthly_repayment",
+                "*"
+              ],
+              "sortingPossibleValues": [
+                "",
+                "Area",
+                "Group",
+                "Price",
+                "Rooms",
+                "Address",
+                "Monthly_repayment"
+              ],
+              "footerPossibleValues": [
+                "None",
+                "Average",
+                "Count",
+                "Sum",
+                "WeightedAverage"
+              ],
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Property Mortgage"
+                }
+              },
+              "ColumnsConfiguration": [
+                {
+                  "Field": "Area",
+                  "DisplayName": "Area",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "Group",
+                  "DisplayName": "Group",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "Price",
+                  "DisplayName": "Price",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "Rooms",
+                  "DisplayName": "Rooms",
+                  "Format": "Formatted Number",
+                  "Precision": 0,
+                  "WidthWeight": 165,
+                  "MinWidthAbsolute": 165,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "Address",
+                  "DisplayName": "Address",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "Monthly_repayment",
+                  "DisplayName": "Monthly_repayment",
+                  "Format": "Formatted Number",
+                  "Precision": 0,
+                  "WidthWeight": 165,
+                  "MinWidthAbsolute": 165,
+                  "TextAlign": "right"
+                }
+              ],
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0
+              },
+              "format": {
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "21",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {},
+    "_settings": {
+      "dashboardUser": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardTimezone": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardUrl": {
+        "_viewType": true,
+        "_type": "string",
+        "_default": ""
+      },
+      "dashboardTitle": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardStartTimestamp": {
+        "_viewType": true,
+        "_type": "timestamp",
+        "_default": "",
+        "_rolling": true
+      },
+      "dashboardAvailableMemoryThreshold": {
+        "_viewType": true,
+        "_type": "int",
+        "_default": 0
+      }
+    },
+    "srcSelect": {
+      "_viewType": true,
+      "_default": "IOPWinds",
+      "_type": "symbol"
+    }
+  },
+  "data": {
+    "Starter": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "sym",
+        "Description",
+        "LastTime",
+        "Last",
+        "Change",
+        "ChangePerc",
+        "DayLow",
+        "DayHigh",
+        "Name",
+        "DividendYield_TTM",
+        "Profile",
+        "MarketCap",
+        "EnterpriseValue",
+        "PE_Ratio_TTM",
+        "ForwardPE",
+        "PEG_Ratio",
+        "PriceSales_TTM",
+        "PriceBook_MRQ",
+        "Revenue_TTM",
+        "RevenuePerShare_TTM",
+        "GrossProfit_TTM",
+        "EBITDA_TTM",
+        "NetIncome_TTM",
+        "DilutedEPS_TTM",
+        "QuarterlyEarningsGrowth_YOY",
+        "TotalCash",
+        "TotalCashPerShare_MRQ",
+        "TotalDebt_MRQ",
+        "TotalDebtEquity_MRQ",
+        "CurrentRatio_MRQ",
+        "BookValuePerShare_MRQ",
+        "OperatingCashFlow_TTM",
+        "LeveredCashFlow_TTM",
+        "PriceTarget_1Yr",
+        "NoOfAnalysts_currQ",
+        "AvgEstimateEPS_currQ",
+        "LowEstimateEPS_currQ",
+        "HighEstimateEPS_currQ",
+        "YearAgoEPS_currQ",
+        "UpEPSRev_last30days",
+        "LowerEPSRev_last30days",
+        "AnalystConsensus",
+        "AnalystScore_1_sBUY_to_5_sSELL",
+        "CEO",
+        "Sector",
+        "Industry",
+        "Employees"
+      ],
+      "_dataType": "builder",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "sym",
+        "mappings": {},
+        "value": "Description"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "streaming",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": "0100000033010000630b00020000006e6f64657300656467657300000002000000630b00030000006a6f696e3000646174613000646174613100000003000000630b000200000074797065006461746100000002000000f56a6f696e00630b0004000000666e0073776170006c65667400726967687400000004000000f56c6a00ff00000000000000000001000000f573796d00630b000200000074797065006461746100000002000000f573747265616d00000002000000f56c69737400f500630b000200000074797065006461746100000002000000f564617461000a00140000002e73746f636b732e66756e64616d656e74616c73630b00020000006a6f696e3000726573756c7400000002000000000002000000f5646174613000f5646174613100000001000000f56a6f696e3000",
+      "_analyticParams": [],
+      "_builderParams": [],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_graphJSON": "{\"nodes\":{\"result\":{\"id\":\"result\",\"group\":\"result\"},\"join0\":{\"id\":\"join0\",\"group\":\"join\",\"meta\":{\"sym\":11,\"Description\":11,\"LastTime\":12,\"Last\":9,\"Change\":9,\"ChangePerc\":9,\"DayLow\":9,\"DayHigh\":9,\"Name\":11,\"DividendYield_TTM\":9,\"Profile\":11,\"MarketCap\":9,\"EnterpriseValue\":9,\"PE_Ratio_TTM\":9,\"ForwardPE\":9,\"PEG_Ratio\":9,\"PriceSales_TTM\":9,\"PriceBook_MRQ\":9,\"Revenue_TTM\":9,\"RevenuePerShare_TTM\":9,\"GrossProfit_TTM\":9,\"EBITDA_TTM\":9,\"NetIncome_TTM\":9,\"DilutedEPS_TTM\":9,\"QuarterlyEarningsGrowth_YOY\":9,\"TotalCash\":9,\"TotalCashPerShare_MRQ\":9,\"TotalDebt_MRQ\":9,\"TotalDebtEquity_MRQ\":9,\"CurrentRatio_MRQ\":9,\"BookValuePerShare_MRQ\":9,\"OperatingCashFlow_TTM\":9,\"LeveredCashFlow_TTM\":9,\"PriceTarget_1Yr\":9,\"NoOfAnalysts_currQ\":9,\"AvgEstimateEPS_currQ\":9,\"LowEstimateEPS_currQ\":9,\"HighEstimateEPS_currQ\":9,\"YearAgoEPS_currQ\":9,\"UpEPSRev_last30days\":9,\"LowerEPSRev_last30days\":9,\"AnalystConsensus\":11,\"AnalystScore_1_sBUY_to_5_sSELL\":9,\"CEO\":11,\"Sector\":11,\"Industry\":11,\"Employees\":6},\"data\":{\"fn\":\"lj\",\"swap\":false,\"left\":[],\"right\":[\"sym\"]},\"subscription\":{\"cols\":[\"sym\",\"Description\",\"LastTime\",\"Last\",\"Change\",\"ChangePerc\",\"DayLow\",\"DayHigh\",\"Name\",\"DividendYield_TTM\",\"Profile\",\"MarketCap\",\"EnterpriseValue\",\"PE_Ratio_TTM\",\"ForwardPE\",\"PEG_Ratio\",\"PriceSales_TTM\",\"PriceBook_MRQ\",\"Revenue_TTM\",\"RevenuePerShare_TTM\",\"GrossProfit_TTM\",\"EBITDA_TTM\",\"NetIncome_TTM\",\"DilutedEPS_TTM\",\"QuarterlyEarningsGrowth_YOY\",\"TotalCash\",\"TotalCashPerShare_MRQ\",\"TotalDebt_MRQ\",\"TotalDebtEquity_MRQ\",\"CurrentRatio_MRQ\",\"BookValuePerShare_MRQ\",\"OperatingCashFlow_TTM\",\"LeveredCashFlow_TTM\",\"PriceTarget_1Yr\",\"NoOfAnalysts_currQ\",\"AvgEstimateEPS_currQ\",\"LowEstimateEPS_currQ\",\"HighEstimateEPS_currQ\",\"YearAgoEPS_currQ\",\"UpEPSRev_last30days\",\"LowerEPSRev_last30days\",\"AnalystConsensus\",\"AnalystScore_1_sBUY_to_5_sSELL\",\"CEO\",\"Sector\",\"Industry\",\"Employees\"],\"key\":\"\"}},\"data0\":{\"id\":\"data0\",\"group\":\"stream\",\"meta\":{\"sym\":11,\"Description\":11,\"LastTime\":12,\"Last\":9,\"Change\":9,\"ChangePerc\":9,\"DayLow\":9,\"DayHigh\":9},\"data\":{\"name\":\"list\",\"params\":[{\"name\":\"x\",\"type\":\"symbol\",\"value\":\"\",\"isViewState\":false}]}},\"data1\":{\"id\":\"data1\",\"group\":\"data\",\"meta\":{\"sym\":11,\"Name\":11,\"DividendYield_TTM\":9,\"Profile\":11,\"MarketCap\":9,\"EnterpriseValue\":9,\"PE_Ratio_TTM\":9,\"ForwardPE\":9,\"PEG_Ratio\":9,\"PriceSales_TTM\":9,\"PriceBook_MRQ\":9,\"Revenue_TTM\":9,\"RevenuePerShare_TTM\":9,\"GrossProfit_TTM\":9,\"EBITDA_TTM\":9,\"NetIncome_TTM\":9,\"DilutedEPS_TTM\":9,\"QuarterlyEarningsGrowth_YOY\":9,\"TotalCash\":9,\"TotalCashPerShare_MRQ\":9,\"TotalDebt_MRQ\":9,\"TotalDebtEquity_MRQ\":9,\"CurrentRatio_MRQ\":9,\"BookValuePerShare_MRQ\":9,\"OperatingCashFlow_TTM\":9,\"LeveredCashFlow_TTM\":9,\"PriceTarget_1Yr\":9,\"NoOfAnalysts_currQ\":9,\"AvgEstimateEPS_currQ\":9,\"LowEstimateEPS_currQ\":9,\"HighEstimateEPS_currQ\":9,\"YearAgoEPS_currQ\":9,\"UpEPSRev_last30days\":9,\"LowerEPSRev_last30days\":9,\"AnalystConsensus\":11,\"AnalystScore_1_sBUY_to_5_sSELL\":9,\"CEO\":11,\"Sector\":11,\"Industry\":11,\"Employees\":6},\"data\":\".stocks.fundamentals\"}},\"edges\":{\"data0\":[\"join0\"],\"join0\":[\"result\"],\"data1\":[\"join0\"]}}",
+      "_selectedNode": "join0"
+    },
+    "Quote": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "src",
+        "bidSize",
+        "bid",
+        "ask",
+        "askSize"
+      ],
+      "_dataType": "builder",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": ".queryBuilder.processGraph2",
+      "_analyticParams": [
+        {
+          "id": "graph",
+          "name": "graph",
+          "index": 0,
+          "type": "string",
+          "value": "010000004c010000630b00020000006e6f64657300656467657300000002000000630b000200000066696c7465723000646174613000000002000000630b000200000074797065006461746100000002000000f566696c74657200630b000300000073656c6563740077686572650064697374696e637400000003000000630b00000000000b00000000000000020000006605630b000500000073726300636f6d70617269736f6e0076616c756500646174615479706500636f6d706172654669656c647300000005000000f573726300f5657175616c00f5494f5057696e647300fbf5ffff00ff00630b000200000074797065006461746100000002000000f564617461000a000800000064667851756f7465630b000200000066696c7465723000726573756c7400000002000000000001000000f5646174613000000001000000f566696c7465723000"
+        }
+      ],
+      "_builderParams": [
+        {
+          "value": "<%srcSelect%>"
+        }
+      ],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_graphJSON": "{\"nodes\":{\"result\":{\"id\":\"result\",\"group\":\"result\"},\"filter0\":{\"id\":\"filter0\",\"group\":\"filter\",\"meta\":{\"time\":12,\"sym\":11,\"src\":11,\"bidSize\":7,\"bid\":9,\"ask\":9,\"askSize\":7},\"data\":{\"select\":{},\"where\":{\"operator\":\"AND\",\"children\":[{\"propertyName\":\"src\",\"propertyType\":11,\"operator\":\"equal\",\"value\":\"<%srcSelect%>\",\"active\":true,\"type\":\"normal\",\"compareFields\":false}]},\"distinct\":false},\"subscription\":{\"cols\":[\"time\",\"sym\",\"src\",\"bidSize\",\"bid\",\"ask\",\"askSize\"],\"key\":\"\"}},\"data0\":{\"id\":\"data0\",\"group\":\"data\",\"meta\":{\"time\":12,\"sym\":11,\"src\":11,\"bidSize\":7,\"bid\":9,\"ask\":9,\"askSize\":7},\"data\":\"dfxQuote\"}},\"edges\":{\"data0\":[\"filter0\"],\"filter0\":[\"result\"],\"filter1\":[]}}",
+      "_selectedNode": "filter0",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "distinct src": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "src"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "src",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "select distinct src from dfxQuote",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "Property": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "Area",
+        "Group",
+        "Price",
+        "Rooms",
+        "Address",
+        "Provence",
+        "Rent",
+        "PercentageChange"
+      ],
+      "_dataType": "builder",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "Area",
+        "mappings": {},
+        "value": "Group"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": ".queryBuilder.processGraph2",
+      "_analyticParams": [
+        {
+          "id": "graph",
+          "name": "graph",
+          "index": 0,
+          "type": "string",
+          "value": "010000001f020000630b00020000006e6f64657300656467657300000002000000630b00050000006a6f696e300067726f75704279300064617461310067726f757042793100646174613000000005000000630b000200000074797065006461746100000002000000f56a6f696e00630b0004000000666e0073776170006c65667400726967687400000004000000f56c6a00ff00000000000000000000000000630b000200000074797065006461746100000002000000f567726f7570427900630b000200000067726f757042790061676700000002000000630b00010000004172656100000001000000f54172656100000000000000630b000200000074797065006461746100000002000000f564617461000a000e00000070726f7065727479507269636573630b000200000074797065006461746100000002000000f567726f7570427900630b000200000067726f757042790061676700000002000000630b00010000004172656100000001000000f54172656100000000000000630b000200000074797065006461746100000002000000f564617461000a000f00000061766752656e74616c507269636573630b000400000067726f757042793100726573756c740067726f7570427930006a6f696e3000000004000000000001000000f5646174613000000001000000f56a6f696e3000000001000000f5646174613100000002000000f567726f757042793000f567726f757042793100"
+        }
+      ],
+      "_builderParams": [],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_graphJSON": "{\"nodes\":{\"result\":{\"id\":\"result\",\"group\":\"result\"},\"join0\":{\"id\":\"join0\",\"group\":\"join\",\"data\":{\"fn\":\"lj\",\"swap\":false,\"left\":[],\"right\":[]},\"subscription\":{\"cols\":[\"Area\",\"Group\",\"Price\",\"Rooms\",\"Address\",\"Provence\",\"Rent\",\"PercentageChange\"],\"key\":\"\"}},\"groupBy1\":{\"id\":\"groupBy1\",\"group\":\"groupBy\",\"meta\":{\"Area\":11,\"Group\":11,\"Provence\":11,\"Rent\":9,\"PercentageChange\":9,\"Rooms\":7},\"data\":{\"groupBy\":{\"Area\":\"Area\"},\"agg\":{}},\"subscription\":{\"cols\":[\"Area\",\"Group\",\"Provence\",\"Rent\",\"PercentageChange\",\"Rooms\"],\"key\":\"\"}},\"data0\":{\"id\":\"data0\",\"group\":\"data\",\"meta\":{\"Area\":11,\"Group\":11,\"Provence\":11,\"Rent\":9,\"PercentageChange\":9,\"Rooms\":7},\"data\":\"avgRentalPrices\"},\"groupBy0\":{\"id\":\"groupBy0\",\"group\":\"groupBy\",\"meta\":{\"Area\":11,\"Group\":11,\"Price\":9,\"Rooms\":7,\"Address\":11},\"data\":{\"groupBy\":{\"Area\":\"Area\"},\"agg\":{}}},\"data1\":{\"id\":\"data1\",\"group\":\"data\",\"meta\":{\"Area\":11,\"Group\":11,\"Price\":9,\"Rooms\":7,\"Address\":11},\"data\":\"propertyPrices\",\"subscription\":{\"cols\":[\"Area\",\"Group\",\"Price\",\"Rooms\",\"Address\"],\"key\":\"\"}}},\"edges\":{\"data0\":[\"groupBy1\"],\"join0\":[\"result\"],\"data1\":[\"groupBy0\"],\"groupBy0\":[\"join0\"],\"groupBy1\":[\"join0\"]}}",
+      "_selectedNode": "join0",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "Property Mortgage": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "Area",
+        "Group",
+        "Price",
+        "Rooms",
+        "Address",
+        "Monthly_repayment"
+      ],
+      "_dataType": "builder",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "Area",
+        "mappings": {},
+        "value": "Group"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_selectedAnalytic": ".queryBuilder.processGraph2",
+      "_analyticParams": [
+        {
+          "id": "graph",
+          "name": "graph",
+          "index": 0,
+          "type": "string",
+          "value": "01000000ee000000630b00020000006e6f64657300656467657300000002000000630b000200000066756e6374696f6e3000646174613000000002000000630b000200000074797065006461746100000002000000f566756e6374696f6e00000002000000f56d6f72746761676552657061796d656e7443616c6300fa14000000630b000200000074797065006461746100000002000000f564617461000a000e00000070726f7065727479507269636573630b000200000066756e6374696f6e3000726573756c7400000002000000000001000000f5646174613000000001000000f566756e6374696f6e3000"
+        }
+      ],
+      "_builderParams": [],
+      "_subscriptionKey": "",
+      "_isStreamingSubscription": false,
+      "_graphJSON": "{\"nodes\":{\"result\":{\"id\":\"result\",\"group\":\"result\"},\"function0\":{\"id\":\"function0\",\"group\":\"function\",\"meta\":{\"Area\":11,\"Group\":11,\"Price\":9,\"Rooms\":7,\"Address\":11,\"Monthly_repayment\":7},\"data\":{\"name\":\"mortgageRepaymentCalc\",\"params\":[{\"name\":\"years\",\"type\":\"int\",\"value\":20,\"isViewState\":false}]},\"subscription\":{\"cols\":[\"Area\",\"Group\",\"Price\",\"Rooms\",\"Address\",\"Monthly_repayment\"],\"key\":\"\"}},\"data0\":{\"id\":\"data0\",\"group\":\"data\",\"meta\":{\"Area\":11,\"Group\":11,\"Price\":9,\"Rooms\":7,\"Address\":11},\"data\":\"propertyPrices\"}},\"edges\":{\"data0\":[\"function0\"],\"function0\":[\"result\"]}}",
+      "_selectedNode": "function0",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "hostnameAccess": "",
+  "hash": "9937521f-4ef7-21c5-39f1-18fa0f679fed",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "version": "4.7.7",
+  "wasChanged": false
+}

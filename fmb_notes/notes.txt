@@ -1,0 +1,12 @@
+q='QHOME=~/q rlwrap -r ~/q/m64/q'
+
+DYLD_LIBRARY_PATH=/opt/anaconda3/lib
+
+
+/Users/fionan/q/m64arm/./p.so
+
+
+q='QHOME=~/q rlwrap -r ~/q/m64/q'
+
+export CODEROOT=/Users/fionan/Desktop/Local/Code
+export 
