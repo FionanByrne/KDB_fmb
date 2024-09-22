@@ -1,0 +1,6 @@
+#Import csv table
+1. Start q process on port 5050
+2. PivotData:("zsssjdsdsssssssssfssfffff"; enlisy ",') 0: `:/q/data/PivotData.csv
+3. Launch KXDashboard --> Create new
+4. Dashboard --> Connections --> Host/Port
+5. Add Data Grid --> Select connection

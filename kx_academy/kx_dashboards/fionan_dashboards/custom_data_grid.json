@@ -1,0 +1,552 @@
+{
+  "id": "9ae50a13-1776-85fe-ee2b-bc3d43a835cc",
+  "name": "Custom Data Grid",
+  "creationDate": "Sun, 30 Jun 2024 18:03:26 GMT",
+  "lastUpdateDate": "Sun, 30 Jun 2024 19:13:06 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "f929a537-972b-a1d1-da4b-19c24837af1b"
+    }
+  ],
+  "screens": [
+    {
+      "id": "f929a537-972b-a1d1-da4b-19c24837af1b",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "627f0962-5008-de7a-378e-5cb7e6057b88",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 21,
+            "colSpan": 31
+          },
+          "component": {
+            "id": "5ee14c5a-b87f-4336-2b79-44ce6a2721f3",
+            "key": "Datagrid",
+            "options": {
+              "version": "4.7.8",
+              "datagridPossibleColumns": [
+                "Sector",
+                "sym",
+                "DividendYield_TTM",
+                "MarketCap",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PE_Ratio_TTM1",
+                "ForwardPE1"
+              ],
+              "datagridPossibleHeaderColumns": [
+                "none"
+              ],
+              "datagridPossibleColumnsWithItself": [
+                "<this>",
+                "Sector",
+                "sym",
+                "DividendYield_TTM",
+                "MarketCap",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PE_Ratio_TTM1",
+                "ForwardPE1"
+              ],
+              "selectedColumnPossibleValues": [
+                "Sector",
+                "sym",
+                "DividendYield_TTM",
+                "MarketCap",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PE_Ratio_TTM1",
+                "ForwardPE1"
+              ],
+              "highlightTargetPossibleValues": [
+                "Sector",
+                "sym",
+                "DividendYield_TTM",
+                "MarketCap",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PE_Ratio_TTM1",
+                "ForwardPE1",
+                "*"
+              ],
+              "sortingPossibleValues": [
+                "",
+                "Sector",
+                "sym",
+                "DividendYield_TTM",
+                "MarketCap",
+                "PE_Ratio_TTM",
+                "ForwardPE",
+                "PE_Ratio_TTM1",
+                "ForwardPE1"
+              ],
+              "footerPossibleValues": [
+                "None",
+                "Average",
+                "Count",
+                "Sum",
+                "WeightedAverage"
+              ],
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Stock Fundamentals"
+                },
+                "Filtering": "Column Filters",
+                "ShowPageState": true,
+                "GroupingAutoCollapse": true,
+                "EnableCustomLayoutConfiguration": true,
+                "SortColumn": "Sector"
+              },
+              "ColumnsConfiguration": [
+                {
+                  "Field": "Sector",
+                  "DisplayName": "Industry Sector",
+                  "Tooltip": "Business Sector",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "FooterWeights": "Sector"
+                },
+                {
+                  "Field": "sym",
+                  "DisplayName": "Symbol",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "Template": "<b>{{sym}}</b>",
+                  "FooterWeights": "Sector"
+                },
+                {
+                  "Field": "DividendYield_TTM",
+                  "DisplayName": "DividendYield_TTM",
+                  "Format": "Percentage",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 140,
+                  "PercentageColorOverride": "#117837",
+                  "FooterWeights": "Sector"
+                },
+                {
+                  "Field": "MarketCap",
+                  "DisplayName": "MarketCap",
+                  "Format": "Smart Number",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 140,
+                  "FooterWeights": "Sector"
+                },
+                {
+                  "Field": "PE_Ratio_TTM",
+                  "DisplayName": "PE_Ratio_TTM",
+                  "Format": "Number",
+                  "Precision": 4,
+                  "HighlightMinValueColor": "#ff0011",
+                  "HighlightMaxValueColor": "#14bd11",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 140,
+                  "FooterWeights": "Sector"
+                },
+                {
+                  "Field": "ForwardPE",
+                  "DisplayName": "ForwardPE",
+                  "Format": "Number",
+                  "Precision": 4,
+                  "IsRangeHighlightColorInverted": true,
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 140,
+                  "FooterWeights": "Sector"
+                },
+                {
+                  "Field": "PE_Ratio_TTM1",
+                  "DisplayName": "PE_Ratio_TTM1",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 140,
+                  "Hidden": true
+                },
+                {
+                  "Field": "ForwardPE1",
+                  "DisplayName": "ForwardPE1",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 140,
+                  "Hidden": true
+                }
+              ],
+              "Selection": {
+                "Mode": "Single Row",
+                "RowSelectionColumn": "Sector",
+                "SelectedValue": "Technology",
+                "Actions": [
+                  {
+                    "Current": "Sector",
+                    "Target": {
+                      "_dashboardsType": "viewstate",
+                      "value": "sector"
+                    },
+                    "_Type": "map",
+                    "TriggerColumn": "*",
+                    "Trigger": "Click"
+                  }
+                ]
+              },
+              "Tooltip": {
+                "Position": "cursor"
+              },
+              "SummaryRow_Groupings": [
+                {
+                  "Function": "AVG",
+                  "Column": "PE_Ratio_TTM",
+                  "Label": "Avg PE",
+                  "Color": "#c99d18"
+                }
+              ],
+              "HighlightRules": [
+                {
+                  "Name": "High PE Ratio",
+                  "Enabled": true,
+                  "Target": "*",
+                  "ConditionSource": "PE_Ratio_TTM",
+                  "ConditionOperator": ">",
+                  "ConditionValue": "50",
+                  "Color": "#d62433",
+                  "BackgroundColor": "",
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PE Ratio",
+                  "Enabled": true,
+                  "Target": "PE_Ratio_TTM",
+                  "ConditionSource": "PE_Ratio_TTM1",
+                  "ConditionOperator": "Fill Right-to-Left",
+                  "ConditionValue": "previous value",
+                  "Color": "",
+                  "BackgroundColor": "#b80eb8",
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                },
+                {
+                  "Name": "Forward PE",
+                  "Enabled": true,
+                  "Target": "ForwardPE",
+                  "ConditionSource": "ForwardPE1",
+                  "ConditionOperator": "Fill Left-to-Right",
+                  "ConditionValue": "previous value",
+                  "Color": "#cefa1e",
+                  "BackgroundColor": "",
+                  "BorderColor": "",
+                  "Icon": "",
+                  "IconColor": "",
+                  "RuleType": "discrete",
+                  "RuleMin": 0,
+                  "RuleMax": 1,
+                  "RuleLimitEnabled": false,
+                  "TargetElement": "background",
+                  "Palette": [
+                    {
+                      "color": "#b71c1c"
+                    },
+                    {
+                      "color": "#F57F17"
+                    },
+                    {
+                      "color": "#33691E"
+                    }
+                  ]
+                }
+              ],
+              "CustomFilters": [
+                {
+                  "Name": "Sector",
+                  "Type": "Selection",
+                  "Data": ""
+                },
+                {
+                  "Name": "PE_Ratio_TTM",
+                  "Type": "Number",
+                  "Data": ""
+                }
+              ],
+              "Style": {
+                "advanced": "[data-widgetid=\"627f0962-5008-de7a-378e-5cb7e6057b88\"] div.Datagrid.Dark > div.datagridFrame > div.pnlGrid > div.slick-pane.slick-pane-header.slick-pane-left > div.slick-header.slick-header-left > div.slick-header-columns.slick-header-columns-left > div.slick-header-column.sym.center.slick-header-sortable.sortable-chosen > span.slick-column-name {\n   font-weight: bold; \n}"
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0
+              },
+              "format": {
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "21",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "9c0bad2a-55a7-0387-174c-4fe903ff4950",
+          "layout": {
+            "row": 21,
+            "column": 0,
+            "rowSpan": 2,
+            "colSpan": 10
+          },
+          "component": {
+            "id": "4e2ff23f-7926-118d-8e38-86835baee739",
+            "key": "BasicComponents",
+            "options": {
+              "version": "4.7.7.1",
+              "Basics": {
+                "ComponentName": "Text",
+                "Name": "",
+                "HtmlText": {
+                  "_dashboardsType": "viewstate",
+                  "value": "sector"
+                },
+                "Data": "",
+                "Template": "",
+                "Theme": "Dark",
+                "FontSize": "13",
+                "horizontal": "Center",
+                "vertical": "Middle",
+                "tooltip": "",
+                "AllowUnsafeContent": false,
+                "version": "4.2.0s2"
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 20,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "17",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {},
+    "_settings": {
+      "dashboardUser": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardTimezone": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardUrl": {
+        "_viewType": true,
+        "_type": "string",
+        "_default": ""
+      },
+      "dashboardTitle": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardStartTimestamp": {
+        "_viewType": true,
+        "_type": "timestamp",
+        "_default": "",
+        "_rolling": true
+      },
+      "dashboardAvailableMemoryThreshold": {
+        "_viewType": true,
+        "_type": "int",
+        "_default": 0
+      }
+    },
+    "sector": {
+      "_viewType": true,
+      "_default": "",
+      "_type": "symbol"
+    }
+  },
+  "data": {
+    "Stock Fundamentals": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "Sector",
+        "sym",
+        "DividendYield_TTM",
+        "MarketCap",
+        "PE_Ratio_TTM",
+        "ForwardPE",
+        "PE_Ratio_TTM1",
+        "ForwardPE1"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "Sector",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "select Sector, sym, DividendYield_TTM, MarketCap, PE_Ratio_TTM, ForwardPE, PE_Ratio_TTM%(max PE_Ratio_TTM), ForwardPE%(max ForwardPE) from .stocks.fundamentals",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "hostnameAccess": "",
+  "hash": "9ae50a13-1776-85fe-ee2b-bc3d43a835cc",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "version": "4.7.7",
+  "wasChanged": true
+}

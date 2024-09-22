@@ -1,0 +1,554 @@
+{
+  "id": "b12b3ddc-eb62-17a1-4f3f-e39cf17d89d7",
+  "name": "my_Dashboard",
+  "creationDate": "Fri, 28 Jun 2024 21:09:31 GMT",
+  "lastUpdateDate": "Sun, 30 Jun 2024 16:39:42 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "97dd59ef-f180-f1a7-6fbf-cc7f7a2d06ce"
+    }
+  ],
+  "screens": [
+    {
+      "id": "97dd59ef-f180-f1a7-6fbf-cc7f7a2d06ce",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "328958ad-af62-8edc-d9d7-e10c8e0021ec",
+          "layout": {
+            "row": 2,
+            "column": 1,
+            "rowSpan": 9,
+            "colSpan": 14
+          },
+          "component": {
+            "id": "4198f346-cfca-ec97-97ec-c27044e91f33",
+            "key": "Datagrid",
+            "options": {
+              "version": "4.7.8",
+              "datagridPossibleColumns": [
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize"
+              ],
+              "datagridPossibleHeaderColumns": [
+                "none"
+              ],
+              "datagridPossibleColumnsWithItself": [
+                "<this>",
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize"
+              ],
+              "selectedColumnPossibleValues": [
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize"
+              ],
+              "highlightTargetPossibleValues": [
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize",
+                "*"
+              ],
+              "sortingPossibleValues": [
+                "",
+                "time",
+                "sym",
+                "src",
+                "bidSize",
+                "bid",
+                "ask",
+                "askSize"
+              ],
+              "footerPossibleValues": [
+                "None",
+                "Average",
+                "Count",
+                "Sum",
+                "WeightedAverage"
+              ],
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Input"
+                }
+              },
+              "ColumnsConfiguration": [
+                {
+                  "Field": "time",
+                  "DisplayName": "time",
+                  "Format": "DateTime",
+                  "TimeFormat": "HH:mm:ss.SSSSSSSSS",
+                  "WidthWeight": 200,
+                  "MinWidthAbsolute": 200,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "sym",
+                  "DisplayName": "sym",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "src",
+                  "DisplayName": "src",
+                  "WidthWeight": 100,
+                  "MinWidthAbsolute": 100,
+                  "TextAlign": "left"
+                },
+                {
+                  "Field": "bidSize",
+                  "DisplayName": "bidSize",
+                  "Format": "Formatted Number",
+                  "Precision": 0,
+                  "WidthWeight": 165,
+                  "MinWidthAbsolute": 165,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "bid",
+                  "DisplayName": "bid",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "ask",
+                  "DisplayName": "ask",
+                  "Format": "Formatted Number",
+                  "Precision": 4,
+                  "WidthWeight": 140,
+                  "MinWidthAbsolute": 140,
+                  "TextAlign": "right"
+                },
+                {
+                  "Field": "askSize",
+                  "DisplayName": "askSize",
+                  "Format": "Formatted Number",
+                  "Precision": 0,
+                  "WidthWeight": 165,
+                  "MinWidthAbsolute": 165,
+                  "TextAlign": "right"
+                }
+              ],
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0
+              },
+              "format": {
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "21",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "defb88b7-8596-56fc-f1ba-55788178238d",
+          "layout": {
+            "row": 1,
+            "column": 1,
+            "rowSpan": 1,
+            "colSpan": 14
+          },
+          "component": {
+            "id": "3dbde71f-265d-52fb-eaf6-8c1ef60288ff",
+            "key": "Dataform",
+            "options": {
+              "version": "4.7.7",
+              "isDataform": true,
+              "Basics": {
+                "Name": "",
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "Input"
+                },
+                "SubmitButtonText": "Submit",
+                "ValidationAnalytic": "",
+                "ExpandDictParameters": true,
+                "ForceExecute": false,
+                "ShowReset": false,
+                "ShowSubmit": true,
+                "FloatSubmit": true,
+                "FloatReset": false,
+                "ViewStates": [
+                  {
+                    "PathEnc": "Input%2FsymSelect",
+                    "DisplayName": "Sym Select",
+                    "HideParameter": false,
+                    "Tooltip": "",
+                    "FieldType": {
+                      "_Type": "Dropdown",
+                      "DropdownPossibleValues": [
+                        "sym"
+                      ],
+                      "Data": {
+                        "_dashboardsType": "data",
+                        "value": "Distinct Symbol"
+                      },
+                      "AcceptEmptyValues": false,
+                      "ForceSelect": false,
+                      "MultiSelect": true,
+                      "ShowSearch": true,
+                      "AdvancedSearch": false,
+                      "FieldSummaryThreshold": 5,
+                      "TooltipSummaryThreshold": 5,
+                      "SelectAllValue": "",
+                      "SelectAllDefault": false,
+                      "SortListBySelected": false,
+                      "UseCustom": false,
+                      "DataSourceMapping": {
+                        "Value": "sym",
+                        "Text": "sym",
+                        "DropdownPossibleValues": [
+                          "sym"
+                        ]
+                      },
+                      "Custom": {
+                        "Icon": "",
+                        "IconColor": ""
+                      },
+                      "Items": []
+                    }
+                  }
+                ],
+                "Actions": []
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": "",
+                "minWidth": "",
+                "display": "Row",
+                "inline": "Top",
+                "labelWidth": "",
+                "labelPadding": "",
+                "labelAlign": "Left",
+                "padding": "",
+                "verticalSpacing": "",
+                "submitOffset": "",
+                "resetOffset": "",
+                "formMargin": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "27",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    "selected": {
+      "_viewType": true,
+      "_default": "0",
+      "_type": "symbol"
+    },
+    ".settings": {},
+    "_settings": {
+      "dashboardUser": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardTimezone": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardUrl": {
+        "_viewType": true,
+        "_type": "string",
+        "_default": ""
+      },
+      "dashboardTitle": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardStartTimestamp": {
+        "_viewType": true,
+        "_type": "timestamp",
+        "_default": "",
+        "_rolling": true
+      },
+      "dashboardAvailableMemoryThreshold": {
+        "_viewType": true,
+        "_type": "int",
+        "_default": 0
+      }
+    },
+    "Input": {
+      "symSelect": {
+        "_viewType": true,
+        "_type": "list",
+        "_default": [
+          "EUR/USD"
+        ],
+        "_listtype": "symbol"
+      }
+    }
+  },
+  "data": {
+    "Input": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "time",
+        "sym",
+        "src",
+        "bidSize",
+        "bid",
+        "ask",
+        "askSize"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "sym"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": false,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[symSelect] select from dfxQuote where sym in symSelect}",
+      "_queryParams": [
+        {
+          "name": "symSelect",
+          "index": 0,
+          "type": "list",
+          "value": "<%Input/symSelect%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "Distinct Symbol": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [
+        "sym"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "html5evalcongroup",
+      "_mappings": {
+        "key": "sym",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "select distinct sym from dfxQuote",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "New node": {
+      "_pagingType": "NONE",
+      "_autoExecute": true,
+      "_autoExec": true,
+      "_columns": [],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_mappings": {},
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "weight": 2,
+          "isExpanded": true
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 1,
+          "isExpanded": false
+        },
+        {
+          "weight": 1,
+          "isExpanded": true
+        },
+        {
+          "weight": 2,
+          "isExpanded": false
+        }
+      ],
+      "_queryString": "",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "permissionEntity": null,
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "hostnameAccess": "",
+  "hash": "b12b3ddc-eb62-17a1-4f3f-e39cf17d89d7",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "version": "4.7.7",
+  "wasChanged": true
+}

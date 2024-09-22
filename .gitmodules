@@ -7,3 +7,6 @@
 [submodule "other_repos/rayQasting"]
 	path = other_repos/rayQasting
 	url = https://github.com/NiallB98/rayQasting.git
+[submodule "kx_academy/kdb-architecture-course"]
+	path = kx_academy/kdb-architecture-course
+	url = https://github.com/KxSystems/kdb-architecture-course.git
