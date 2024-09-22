@@ -4,3 +4,6 @@
 [submodule "other_repos/kdb-tick"]
 	path = other_repos/kdb-tick
 	url = https://github.com/KxSystems/kdb-tick.git
+[submodule "other_repos/rayQasting"]
+	path = other_repos/rayQasting
+	url = https://github.com/NiallB98/rayQasting.git
